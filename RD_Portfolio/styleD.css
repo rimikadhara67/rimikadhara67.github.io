@@ -88,6 +88,80 @@ nav span{
     
 }
 /* End Navigation Bar Section */
+/* Image Slider Section */
+#image-slider{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgb(0, 0, 0);
+    animation: transitionIn 2s;
+}
+#image-slider .slider{
+    width: 1000px;
+    height: 600px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0px 0px 80px rgb(50, 210, 231);
+}
+#image-slider .slides{
+    width:800px;
+    height:600px;
+    display: flex;
+}
+#image-slider .slides input{
+    display:none;
+}
+#image-slider .slide{
+    transition: 2s;
+}
+#image-slider .slide img{
+    width: 1000px;
+    height: 600px;
+}
+
+#image-slider .nav-manual{
+    position: absolute;
+    width: 1000px;
+    margin-top: 620px;
+    display: flex;
+    justify-content: center;
+}
+#image-slider  .manual-btn{
+    border: 2px solid rgb(50, 210, 231);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+#image-slider .manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+#image-slider .manual-btn:hover{
+    background: rgb(50, 210, 231)
+}
+#image-slider #radio1:checked ~ .first{
+    margin-left: 0;
+}
+#image-slider #radio2:checked ~ .first{
+    margin-left: -125%;
+}
+#image-slider #radio3:checked ~ .first{
+    margin-left: -250%;
+}
+#image-slider #radio4:checked ~ .first{
+    margin-left: -375%;
+}
+#image-slider #radio5:checked ~ .first{
+    margin-left: -500%;
+}
+#image-slider #radio6:checked ~ .first{
+    margin-left: -625%;
+}
+/* End Image Slider Section */
+
 /* Contact Section */
 #contact{
     background-color:black;
