@@ -17,7 +17,7 @@
     />
     <link
     href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css
-    rel="stylesheet" />
+    rel="stylesheet"/>
     <title>Rimika's Dance Career</title>
   </head>
   <body>
@@ -147,6 +147,16 @@
       </div>
      </section>
      <!--Image Slider End-->
+     <script type="text/javascript">
+       var count = 1;
+       setInterval(function(){
+         document.getElementById('radio' + count).checked = true;
+         count++;
+         if (count > 6){
+           count = 1;
+         }
+       }, 8000);
+     </script>
 
     <!--Contact Section-->
     <footer>

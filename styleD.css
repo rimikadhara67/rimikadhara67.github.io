@@ -140,7 +140,7 @@ nav span{
     margin-right: 40px;
 }
 #image-slider .manual-btn:hover{
-    background: rgb(50, 210, 231)
+    background: rgb(50, 210, 231);
 }
 #image-slider #radio1:checked ~ .first{
     margin-left: 0;
@@ -159,6 +159,40 @@ nav span{
 }
 #image-slider #radio6:checked ~ .first{
     margin-left: -625%;
+}
+.nav-auto{
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    margin-top: 620px;
+}
+.nav-auto div{
+    border: 2px solid rgb(50, 210, 231);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background:rgb(50, 210, 231);
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background:rgb(50, 210, 231);
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background:rgb(50, 210, 231);
+}
+#radio4:checked ~ .nav-auto .auto-btn4{
+    background:rgb(50, 210, 231);
+}
+#radio5:checked ~ .nav-auto .auto-btn5{
+    background:rgb(50, 210, 231);
+}
+#radio6:checked ~ .nav-auto .auto-btn6{
+    background:rgb(50, 210, 231);
 }
 /* End Image Slider Section */
 
