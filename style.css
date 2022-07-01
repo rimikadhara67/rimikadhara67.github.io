@@ -26,7 +26,6 @@ a{
     background-position: top center;
     color: rgb(138, 41, 235);
     position: relative;
-    z-index: -1;
     animation: transitionIn 2s;
 }
 #hero::after{
