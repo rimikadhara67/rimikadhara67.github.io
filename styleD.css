@@ -196,6 +196,34 @@ nav span{
 }
 /* End Image Slider Section */
 
+/* About Dance Section */
+#about-dance{
+    background-color: rgb(50, 210, 231);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#about-dance .section-title{
+    font-size: 4rem;
+    font-weight: 2000;
+    color: black;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+#about-dance .section-title span{
+    text-decoration: underline;
+}
+#about-dance p{
+    color:rgb(0, 0, 0);
+    font-size: 2.25rem;
+    margin-top: 25px;
+    padding:0px 200px ;
+    line-height: 2.5rem;
+    font-weight: 1500px;
+    letter-spacing: .05rem;
+}
+/* End of About dance Section */
+
 /* Contact Section */
 #contact{
     background-color:black;
