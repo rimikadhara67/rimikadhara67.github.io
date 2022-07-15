@@ -118,7 +118,7 @@ nav span{
 }
 .social-row{
     position:relative;
-    padding-left:25%;
+    padding-left:30%;
     display:flex;
     list-style:none;
 }
@@ -131,7 +131,7 @@ nav span{
 }
 .social-row img:hover{
     transition: smooth;
-    transform: translateY(-20%);
+    transform: scale(1.05);
 }
 
 /* End Contact Section */
