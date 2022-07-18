@@ -105,7 +105,7 @@ nav span{
 #education{
     background-color: rgb(0, 0, 0);
     padding-top:60px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 #education .show{
     color:rgb(59, 207, 26);
@@ -114,6 +114,7 @@ nav span{
     line-height: 2.5rem;
     font-weight: 1500px;
     letter-spacing: .05rem;
+    height:120px;
 }
 #education img{
     width: 120px;
@@ -123,10 +124,10 @@ nav span{
 }
 #education .image{
     width: 150px;
-    height: 120px;
     float: left;
 }
 #education .drop-title{
+    color:rgb(132, 255, 105);
     font-size: 3rem;
     text-decoration: underline 1px;
     padding: 7px;
@@ -148,7 +149,45 @@ nav span{
 #activities{
     background-color: rgb(6, 170, 17);
     padding-top:10px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+}
+#activities .show{
+    color:rgb(0, 0, 0);
+    margin-top: 45px;
+    padding:0px 200px ;
+    line-height: 2.5rem;
+    font-weight: 1500px;
+    letter-spacing: .05rem;
+    height:120px;
+}
+#activities img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+#activities .image{
+    width: 150px;
+    float: left;
+}
+#activities .drop-title{
+    color:rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration: underline 1px;
+    padding: 7px;
+}
+#activities h1{
+    font-size: 2.5rem;
+    padding-top: 3px;
+}
+#activities h2{
+    font-size: 2rem;
+    padding-top: 3px;
+}
+#activities h3{
+    font-size: 1.75rem;
+    padding-top: 3px;
 }
 /* End Activities and Organization Section */
 /* Contact Section */
