@@ -54,7 +54,7 @@ nav span{
     left: 0;
     height: 100%;
     width: 0%;
-    background-color: rgb(59, 207, 26);
+    background-color: #3f37c9;
     animation: text_reveal_box 1s ease;
     animation-delay: 2.5s;
 }
@@ -63,7 +63,7 @@ nav span{
     align-items:right;
 }
 .header-name a{
-    color:rgb(59, 207, 26);
+    color:#3f37c9;
     text-decoration: none;
     font-size: 2rem;
 }
@@ -79,7 +79,7 @@ nav span{
     text-align: center;
     display:inline;
     display:block;
-    border-left: 1px solid rgb(59, 207, 26);
+    border-left: 1px solid #827bff;
 }
 
 .header-nav .divider:first-child{
@@ -100,7 +100,7 @@ nav span{
 .header-nav .divider a:hover{
     transition: smooth;
     transform: scale(1.3);
-    color: rgb(59, 207, 26);
+    color: #3f37c9;
     
 }
 /* End Navigation Bar Section */
@@ -111,7 +111,7 @@ nav span{
     padding-bottom: 100px;
 }
 #education .show{
-    color:rgb(59, 207, 26);
+    color:#827bff;
     margin-top: 45px;
     padding:0px 200px ;
     line-height: 2.5rem;
@@ -120,17 +120,17 @@ nav span{
     height:120px;
 }
 #education img{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 20%;
-    box-shadow: 0px 0px 30px rgb(59, 207, 26);
+    box-shadow: 0px 0px 50px #7e77ff;
 }
 #education .image{
-    width: 150px;
+    width: 180px;
     float: left;
 }
 #education .drop-title{
-    color:rgb(132, 255, 105);
+    color:#827bff;
     font-size: 3rem;
     text-decoration: underline 1px;
     padding: 7px;
@@ -140,17 +140,17 @@ nav span{
     padding-top: 3px;
 }
 #education h2{
-    font-size: 2rem;
+    font-size: 2.25rem;
     padding-top: 3px;
 }
 #education h3{
-    font-size: 1.75rem;
+    font-size: 2rem;
     padding-top: 3px;
 }
 /* End Education Section */
 /* Activities and Organizations Section */
 #activities{
-    background-color: rgb(6, 170, 17);
+    background-color: #5148f9;
     padding-top:10px;
     padding-bottom: 100px;
 }
@@ -164,19 +164,19 @@ nav span{
     height:120px;
 }
 #activities img{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 20%;
     box-shadow: 0px 0px 30px rgb(0, 0, 0);
 }
 #activities .image{
-    width: 150px;
+    width: 180px;
     float: left;
 }
 #activities .drop-title{
     color:rgb(0, 0, 0);
     font-size: 3rem;
-    font-weight: bolder;
+    font-weight: 800;
     text-decoration: underline 1px;
     padding: 7px;
 }
@@ -185,11 +185,11 @@ nav span{
     padding-top: 3px;
 }
 #activities h2{
-    font-size: 2rem;
+    font-size: 2.25rem;
     padding-top: 3px;
 }
 #activities h3{
-    font-size: 1.75rem;
+    font-size: 2rem;
     padding-top: 3px;
 }
 /* End Activities and Organization Section */
@@ -200,7 +200,7 @@ nav span{
 }
 
 #contact p{
-    color:rgb(6, 170, 17);
+    color:#827bff;
     font-size: 2.5rem;
     margin-top: 25px;
     padding:0px 200px ;
@@ -265,7 +265,7 @@ nav span{
 }
 @keyframes text_reveal_name{
     100%{
-        color:rgb(59, 207, 26);
+        color:#3f37c9;
         font-weight: 500; 
     }
 }
