@@ -365,27 +365,6 @@ nav span{
     transition: smooth;
     transform: scale(1.05);
 }
-
-/* button{
-    top:50%;
-    left:50%;
-    transform:translate(-255px, 125px);
-    position:fixed;
-    width:500px;
-    height:50px;
-    border-width:0px;
-    cursor: pointer;
-    font-size: large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-form{
-    margin-left:180px;
-    margin-right:180px;
-    padding:25px;
-    color: white;
-} */
 /* End Contact Section */
 
 /* Keyframes */
