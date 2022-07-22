@@ -261,62 +261,49 @@ nav span{
     letter-spacing: .05rem;
 }
 #about .about-bottom{
+    margin: 0 auto;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min-max(225px, 1fr));
+    gap: 20px;
     display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    flex-wrap:wrap;
+    padding: 40px;
 }
-#about .about-item{
-    flex-basis: 65%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 80px;
-    border-radius: 10px;
-    color: white;
-    background-size: cover;
-    margin: 20px 5%;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+#about .card{
+    box-shadow: 0 0 3px black;
+    background: rgb(201, 160, 255);
+    width: 300px;
+    height: 550px;
 }
-#about .about-bottom p{
-    font-size: 2.3rem
-}
-#about .about-item:nth-child(1){
-    background-image: url(images/about1.jpeg);
-}
-#about .about-item:nth-child(2){
-    background-image: url(images/about2.png);
-}
-#about .about-item:nth-child(3){
-    background-image: url(images/about3.png);
-}
-#about .about-item:nth-child(4){
-    background-image: url(images/about4.webp);
-}
-#about .about-item::after{
-    content: '';
-    position: absolute;
-    left:0;
-    top:0;
-    height: 100%;
+.card img{
     width: 100%;
-    background-color: black;
-    opacity: .4;
-    z-index: -1;
+    display: block;
 }
-#about .about-item:hover{
+.card .card-content{
+    line-height: 1.15;
+    font-size: 1em;
+    padding: 25px;
+    padding-bottom:30px;
+    color: black;
+}
+.card-content p{
+    padding-top:15px;
+}
+.card .card-content .icon{
+    background: rgb(201, 160, 255);
+    font-size: 1.3em;
+    width: 20px;
+    display: flex;
+    padding:10px;
+    align-items: center;
+}
+.card .card-content .icon h2{
+    font-size: 1.1em;
+    padding-left: 5px;
+}
+#about .card:hover{
     transition: smooth;
     transform:scale(1.05);
-}
-#about .icon{
-    font-size: 4rem;
-    background-color: black;
-    padding: 20px;
-    border-radius: 50%;
 }
 /* End About Section */
 
